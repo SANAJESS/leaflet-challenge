@@ -1,0 +1,61 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 8px 8px;
+  font-family: Sanchez, serif;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  line-height: 24px;
+  color: black;
+}
+
+.legend k {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.9;
+}
+
+.legend span {
+  position: relative;
+}
+
+.maglt2{
+  border-style: solid;
+  border-color: black;
+  background-color: #ffffb2;
+}
+.maglt3{
+  border-style: solid;
+  border-color: black;
+  background-color: #fecc5c;
+}
+.maglt4{
+  border-style: solid;
+  border-color: black;
+  background-color: #fd8d3c;
+}
+.maglt5{
+   border-style: solid;
+  border-color: black;
+  background-color: #f03b20;
+}
+.maggt5{
+   border-style: solid;
+  border-color: black;
+  background-color: #bd0026;
+}
